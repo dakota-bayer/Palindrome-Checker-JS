@@ -24,7 +24,7 @@ function cleanStr(str) {
 function DetermineIfPalindrome(word) {
   let k = word.length - 1;
   for (let i = 0; i < Number(word.length) / 2; i++) {
-    --console.log(`copmaring ${word.charAt(i)} and ${word.charAt(k)}`);
+    //console.log(`copmaring ${word.charAt(i)} and ${word.charAt(k)}`);
     const firstChar = word.charAt(i);
     const secondChar = word.charAt(k);
     const ignoreComparison = DetermineIfIgnore(firstChar, secondChar);
